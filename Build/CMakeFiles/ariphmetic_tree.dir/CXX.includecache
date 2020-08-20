@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Brown_belt/Week_3/tree/src/Common.h
+memory
+-
+string
+-
+
+D:/Brown_belt/Week_3/tree/src/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+unordered_map
+-
+set
+-
+string
+-
+vector
+-
+
+D:/Brown_belt/Week_3/tree/src/tree.cpp
+Common.h
+D:/Brown_belt/Week_3/tree/src/Common.h
+test_runner.h
+D:/Brown_belt/Week_3/tree/src/test_runner.h
+sstream
+-
+

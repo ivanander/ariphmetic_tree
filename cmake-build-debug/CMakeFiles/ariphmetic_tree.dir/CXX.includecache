@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/dev/CLion_projects/ariphmetic_tree/Common.h
+memory
+-
+string
+-
+
+C:/dev/CLion_projects/ariphmetic_tree/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+unordered_map
+-
+set
+-
+string
+-
+vector
+-
+
+C:/dev/CLion_projects/ariphmetic_tree/tree.cpp
+Common.h
+C:/dev/CLion_projects/ariphmetic_tree/Common.h
+test_runner.h
+C:/dev/CLion_projects/ariphmetic_tree/test_runner.h
+sstream
+-
+
